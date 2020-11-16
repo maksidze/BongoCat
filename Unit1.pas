@@ -11,7 +11,6 @@ type
   TForm1 = class(TForm)
     PaintBox1: TPaintBox;
     Button1: TButton;
-    Button2: TButton;
     TrackBar1: TTrackBar;
     TrackBar2: TTrackBar;
     Label1: TLabel;

@@ -1,9 +1,11 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'BongoCat v 0.1'
   ClientHeight = 650
-  ClientWidth = 1051
+  ClientWidth = 738
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -41,16 +43,9 @@ object Form1: TForm1
     Width = 75
     Height = 25
     Caption = 'Exit'
+    Enabled = False
     TabOrder = 0
     OnClick = Button1Click
-  end
-  object Button2: TButton
-    Left = 808
-    Top = 152
-    Width = 75
-    Height = 25
-    Caption = 'Button2'
-    TabOrder = 1
   end
   object TrackBar1: TTrackBar
     Left = 768
@@ -58,7 +53,7 @@ object Form1: TForm1
     Width = 275
     Height = 45
     Max = 800
-    TabOrder = 2
+    TabOrder = 1
   end
   object TrackBar2: TTrackBar
     Left = 768
@@ -66,7 +61,7 @@ object Form1: TForm1
     Width = 275
     Height = 45
     Max = 800
-    TabOrder = 3
+    TabOrder = 2
   end
   object MemoL: TMemo
     Left = 834
@@ -134,7 +129,7 @@ object Form1: TForm1
       '558'
       '569'
       '570')
-    TabOrder = 4
+    TabOrder = 3
     Visible = False
   end
   object Timer1: TTimer
